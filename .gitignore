@@ -1,12 +1,13 @@
 # Compilados, binarios locais e saves de sessao
 bin/*
-!bin/jogo.exe
-!bin/raylib.dll
 build/
 *.o
 *.obj
 *.exe
-raylib.dll
+/raylib.dll
+!bin/jogo.exe
+!bin/raylib.dll
+!lib/raylib.dll
 *.out
 *.app
 
