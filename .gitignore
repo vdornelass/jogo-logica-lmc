@@ -1,0 +1,24 @@
+# Compilados, binarios locais e saves de sessao
+bin/*
+!bin/jogo.exe
+!bin/raylib.dll
+build/
+*.o
+*.obj
+*.exe
+raylib.dll
+*.out
+*.app
+
+# Certificados exportados e logs
+certificados/
+*.log
+*.tmp
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
